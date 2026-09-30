@@ -1,0 +1,64 @@
+Why are escalations happening?
+What drives customers to ask for a supervisor?
+Why do some calls get escalated to a manager?
+What behaviours in a call are associated with escalation?
+Why do escalations occur even after the agent apologizes?
+What role does customer frustration play in escalations?
+Which factors distinguish escalated calls from other calls?
+Why do customers demand a supervisor?
+What patterns precede an escalation?
+Do repeated customer complaints lead to escalation?
+How does agent empathy relate to escalation?
+Why are calls getting escalated?
+What makes a call get escalated to a higher up?
+Is call length associated with escalation?
+What early warning signs show a call will be escalated?
+Why do customers ask for refunds?
+What drives refund requests?
+Why do some customers demand their money back?
+What behaviours are associated with refund outcomes?
+Why do refunds get issued?
+What separates calls that end in a refund from other calls?
+How does customer frustration relate to refunds?
+Do agent apologies affect whether a refund happens?
+Why do customers want to be reimbursed?
+What patterns precede a refund request?
+Do repeated complaints lead to a refund?
+Which factors are linked to refund calls?
+Why are refunds so common in some calls?
+What early signs suggest a customer will ask for a refund?
+How does the tone of the customer relate to a refund?
+Why do customers churn?
+What drives customers to cancel their service?
+Why are customers leaving?
+What behaviours are associated with churn?
+Why do some customers switch to a competitor?
+What separates calls where the customer cancels from other calls?
+How does frustration relate to customers who leave?
+Do agent apologies reduce the chance a customer will cancel?
+Why do we lose customers on these calls?
+What patterns precede a cancellation?
+Do repeated complaints lead customers to leave?
+Which factors are linked to churn calls?
+What early signs suggest a customer will cancel?
+Why do customers threaten to leave?
+How does customer tone relate to churn?
+Tell me about the calls
+Why is the sky blue?
+Why do escalations happen in Loyalty Program calls?
+Why do customers ask for refunds in Loyalty Program calls?
+Why do customers cancel in Loyalty Program calls?
+Why do escalations happen in Delay Management calls?
+Why do customers ask for refunds in Delay Management calls?
+Why do customers cancel in Delay Management calls?
+Why do escalations happen in Replacement vs Refund calls?
+Why do customers ask for refunds in Replacement vs Refund calls?
+Why do escalations happen in Product Feedback calls?
+Why do customers ask for refunds in Product Feedback calls?
+Why do customers cancel in Product Feedback calls?
+Why do escalations happen in Delivery Delays calls?
+Why do customers ask for refunds in Delivery Delays calls?
+Why do customers cancel in Delivery Delays calls?
+Why do escalations happen in Competitor comparison calls?
+Why do escalations happen in Customer trust calls?
+Why do escalations happen in Claims & refunds calls?

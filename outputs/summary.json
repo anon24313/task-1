@@ -1,0 +1,14 @@
+{
+ "generated": "2026-09-30T22:31:41",
+ "used_llm_synthesis": false,
+ "n_queries": 64,
+ "n_ok": 54,
+ "n_insufficient": 8,
+ "n_unparsed": 2,
+ "n_sessions": 3,
+ "n_session_turns": 13,
+ "distinct_filters_validated": 12,
+ "mean_top_turn_drop": 0.0893,
+ "mean_random_turn_drop": 0.0052,
+ "filters_top_beats_random_p05": 12
+}

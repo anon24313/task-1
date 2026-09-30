@@ -118,3 +118,4 @@ data/processed/
 
 # Local Git backups
 .git_old/
+node_modules/

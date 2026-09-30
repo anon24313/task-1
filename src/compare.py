@@ -166,14 +166,26 @@ def compare(df, outcome, intent=None, min_conf="medium", top_k=8):
         mask_b = control["roles_trusted"] if "roles_trusted" in control else pd.Series(True, index=control.index)
         a, b = fn(treat[mask_a]).astype(int), fn(control[mask_b]).astype(int)
         table = np.array([[a.sum(), len(a) - a.sum()], [b.sum(), len(b) - b.sum()]])
-        if table.min() == 0 and table.sum(axis=1).min() == 0:
+
+        # Constant feature (an empty row or column): nothing to test, skip it
+        if table.sum() == 0 or (table.sum(axis=0) == 0).any() or (table.sum(axis=1) == 0).any():
             continue
-        chi2, p, _, _ = stats.chi2_contingency(table, correction=True)
+
+        try:
+            chi2, p, _, _ = stats.chi2_contingency(table, correction=True)
+        except ValueError:
+            continue
         n = table.sum()
         cramers = float(np.sqrt(chi2 / n))
         signed = cramers if a.mean() >= b.mean() else -cramers
         rows.append(dict(feature=f, test="chi_square", treat_value=float(a.mean()), control_value=float(b.mean()),
                          effect=signed, effect_name="cramers_v", p=float(p), n_treat=len(a), n_control=len(b)))
+
+    if not rows:
+        result["status"] = "insufficient_data"
+        result["message"] = "No testable features for this filter; no statistical claim is made."
+        result["findings"] = []
+        return result
 
     res = pd.DataFrame(rows)
     res["q"] = _bh(res["p"].values)
