@@ -136,4 +136,4 @@ Optional: put hand-labelled label-quality results in `outputs/label_accuracy.jso
 ```bash
 python3 -m pytest tests
 ```
-<img width="748" height="1040" alt="image" src="https://github.com/user-attachments/assets/5b2b6ce4-924f-4f47-988a-29a65037d408" />
+<img width="500" height="auto" alt="image" src="https://github.com/user-attachments/assets/5b2b6ce4-924f-4f47-988a-29a65037d408" />
